@@ -37,13 +37,13 @@ public class AboutUs extends JDialog {
 	 * Create the dialog.
 	 */
 	public AboutUs() {
-		setTitle("About Us");
+		setTitle("About Me");
 		setModal(true);
 		setModalityType(ModalityType.APPLICATION_MODAL);
 		setModalExclusionType(ModalExclusionType.APPLICATION_EXCLUDE);
 		setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		setResizable(false);
-		setBounds(100, 100, 406, 137);
+		setBounds(100, 100, 406, 113);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
@@ -56,14 +56,6 @@ public class AboutUs extends JDialog {
 		JLabel lblNewLabel_1 = new JLabel("Email - manavcool.sethi@gmail.com");
 		lblNewLabel_1.setBounds(167, 14, 176, 19);
 		contentPanel.add(lblNewLabel_1);
-		
-		JLabel lblArpitKumar = new JLabel("Arpit Kumar - 11CS10007");
-		lblArpitKumar.setBounds(10, 46, 130, 24);
-		contentPanel.add(lblArpitKumar);
-		
-		JLabel lblEmailArp = new JLabel("Email - arp8900@gmail.com");
-		lblEmailArp.setBounds(167, 51, 147, 14);
-		contentPanel.add(lblEmailArp);
 		{
 			JPanel buttonPane = new JPanel();
 			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));

@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.io.File;
 
-public class openmanual extends JFrame {
+public class Openmanual extends JFrame {
 
 	private JPanel contentPane;
 
@@ -22,7 +22,7 @@ public class openmanual extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					openmanual frame = new openmanual();
+					Openmanual frame = new Openmanual();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -34,7 +34,7 @@ public class openmanual extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public openmanual() {
+	public Openmanual() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

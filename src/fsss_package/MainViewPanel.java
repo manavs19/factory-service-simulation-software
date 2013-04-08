@@ -102,7 +102,7 @@ public class MainViewPanel extends JPanel {
 		JMenu mnAbout = new JMenu("About");
 		menuBar.add(mnAbout);
 		
-		JMenuItem mntmAboutUs = new JMenuItem("About Us");
+		JMenuItem mntmAboutUs = new JMenuItem("About Me");
 		mntmAboutUs.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				AboutUs au = new AboutUs();
